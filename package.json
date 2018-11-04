@@ -1,14 +1,33 @@
 {
   "name": "mern",
   "version": "1.0.0",
-  "description": "",
+  "description": "Social network for developers",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jeremiah Steele",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manofsteele/Mern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manofsteele/Mern/issues"
+  },
+  "homepage": "https://github.com/manofsteele/Mern#readme"
 }
